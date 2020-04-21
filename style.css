@@ -1,3 +1,28 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    color: #69696a;
+}
+
+.blackbox {
+    background-color: #000;
+    color: #FFF;
+}
+
+p {
+    color: #69696a;
+}
+
+/* display block for the Hire us?  */
