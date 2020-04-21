@@ -3,9 +3,17 @@ body {
     background-color: #f9fafc;
 }
 
+h1 {
+    font-size: small;
+}
+
 ul {
     list-style-type: none;
     padding: 0;  
+}
+
+li {
+    padding-bottom: 5px;
 }
 
 a {
@@ -19,10 +27,12 @@ a {
 .blackbox {
     background-color: #000;
     color: #FFF;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;  
 }
 
 p {
     color: #69696a;
 }
-
-/* display block for the Hire us?  */
