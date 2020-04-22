@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 1_HTML_CSS_Gilman</title>
+    <title>Lab 1_part2__HTML_CSS_Gilman</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -12,32 +12,40 @@
 
 <body>
     <header>
-        <h1>chirpus inc.</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a class="list one" href="#">Work</a>
-                </li>
-                <li>
-                    <a class="list two" href="#">About Us</a>
-                </li>
-                <li>
-                    <a class="list three" href="#">Contact</a>
-                </li>
-                <li>
-                    <a class="blackbox" href="#">Hire Us</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <div class="NavParent-container">
+                <h1>
+                    <a href="#" class="header-title">chirpus inc.</a>
+                </h1>
+                <nav class="UlParent-container">
+                    <ul class="LiParent-container">
+                        <li>
+                            <a class="list one" href="#">Work</a>
+                        </li>
+                        <li>
+                            <a class="list two" href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="list three" href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a class="blackbox" href="#">Hire Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <main>
-        <h2>chirpus inc.</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Atque voluptate qui cupiditate in amet nemo corrupti rem
-            maiores modi tenetur ex aliquid dolores consequuntur sapiente
-            earum nobis, necessitatibus hic sit?
-        </p>
-        <a class="blackbox" href="#">Scroll Down</a>
+    <main class="mainContainer">
+        <div class="mainChildContainer">
+            <h2>chirpus inc.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Atque voluptate qui cupiditate in amet nemo corrupti rem
+                maiores modi tenetur ex aliquid dolores consequuntur sapiente
+                earum nobis, necessitatibus hic sit?
+            </p>
+            <a class="blackbox" href="#">Scroll Down</a>
+        </div>
     </main>
 </body>
 
