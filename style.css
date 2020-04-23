@@ -133,6 +133,7 @@ view even tho I have displaay flex in the meida query */
         left: 350px;
         border-style: solid;
         border-color: rgba(247, 136, 167, 0.6);
+        background-color: rgba(247, 136, 167, 0.6);
         height: 200px;
         width: 200px;
         border-radius: 50%;      
@@ -145,6 +146,7 @@ view even tho I have displaay flex in the meida query */
         top: 50px;
         border-style: solid;
         border-color: rgba(247, 193, 162, 0.7);
+        background-color:  rgba(247, 193, 162, 0.7);
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -157,14 +159,22 @@ view even tho I have displaay flex in the meida query */
         left: 130px;
         border-style: solid;
         border-color: rgba(207, 130, 213, 0.6);
+        background-color: rgba(207, 130, 213, 0.6);
         height: 100px;
         width: 100px;
         border-radius: 50%;
     }
-   
+/* 
+    why did the footer div not auto take up the 
+    height of the submit anchor tag? */
 
+    .footer{
+        height: 300px;
+    }
+    
      .submit{        
         position: fixed;
+        bottom: 0;
         left: 50%;
         transform:translateX(-50%)                 
     } 
@@ -180,3 +190,6 @@ when i make my screen 848x867 the formatting is way off
 
 also when i move chrome inspect tools, sometime
 the anchor tags (look like buttons) get cut off. normal? */
+
+/* 
+I don't know why I couldn't change my git hub repo */
