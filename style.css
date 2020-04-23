@@ -35,7 +35,15 @@ a {
 }
 
 
-/* Project Specific Styles */
+/* Project Specific Styles - Mobile First*/
+
+/* I don't think this is needed and it's not showing up in my 
+inspect elements but when I delete it changes the non mobile 
+view even tho I have displaay flex in the meida query */
+
+/* .NavParent-Container {
+    display: flex;
+} */
 
 .headerone{
     margin-bottom: 5px;
@@ -50,7 +58,7 @@ a {
     list-style: none;
 }
 
-.list {
+.listitem {
     color: #69696a;
     padding-bottom: 10px;
     
@@ -77,6 +85,98 @@ a {
     padding-left: 10px;
 } 
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px){
 
+    .NavParent-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .LiParent-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .list{
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+
+    .hire {
+        margin-left: 10px;
+    }
+
+    .mainChildContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .pclass{
+        width: 50%;
+    }   
+
+    .circleContainer{
+        width: 50%;
+    }
+
+/* 
+    i don't really understand block and inline block OR 
+    Relative and how to move things around  */
+
+    .bigcircle{
+        display: inline-block;
+        position: relative;
+        left: 350px;
+        border-style: solid;
+        border-color: rgba(247, 136, 167, 0.6);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;      
+    }    
+
+    .mediumcircle{
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        top: 50px;
+        border-style: solid;
+        border-color: rgba(247, 193, 162, 0.7);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .smallcircle{
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+        left: 130px;
+        border-style: solid;
+        border-color: rgba(207, 130, 213, 0.6);
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+   
+
+     .submit{        
+        position: fixed;
+        left: 50%;
+        transform:translateX(-50%)                 
+    } 
+
+}
+
+/* 
+
+overall, it seems my circles change randomly when changing 
+the size of the browser
+
+when i make my screen 848x867 the formatting is way off 
+
+also when i move chrome inspect tools, sometime
+the anchor tags (look like buttons) get cut off. normal? */
